@@ -9,7 +9,7 @@ CREATE DATABASE awx OWNER awx;
 
 automationservicescatalog
 
-CREATE USER automationservicescatalog WITH PASSWORD 'retract';
+CREATE USER automationservicescatalog WITH PASSWORD 'TODO';
 GRANT ALL PRIVILEGES ON DATABASE "test_database" to tester;
 
 
