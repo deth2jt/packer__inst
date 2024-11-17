@@ -1,4 +1,5 @@
 packer plugins install github.com/hashicorp/qemu
+
 PACKER_LOG=1 packer build ./centos7.json
 
 
