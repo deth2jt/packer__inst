@@ -8,9 +8,10 @@ PACKER_LOG=1 packer build ./centos7.json
 
 CREATE DATABASE awx OWNER awx;
 
-automationservicescatalog
+automationservicescatalog (create table aswell)
 
 CREATE USER automationservicescatalog WITH PASSWORD 'TODO';
+
 GRANT ALL PRIVILEGES ON DATABASE "test_database" to tester;
 
 
