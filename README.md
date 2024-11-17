@@ -17,4 +17,7 @@ GRANT ALL PRIVILEGES ON DATABASE "test_database" to tester;
 
 
 
-find /tmp -name "*pause.pid*"
+find /tmp -name "*pause.pid*"\
+
+
+set RHN_USERNAME RHN_PASSWORD and ssh values as well
